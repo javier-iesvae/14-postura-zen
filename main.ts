@@ -17,6 +17,6 @@ basic.forever(function () {
 basic.forever(function () {
     if (input.acceleration(Dimension.X) > 500 || input.acceleration(Dimension.X) < -500) {
         n += 1
-        basic.pause(200)
+        basic.pause(100)
     }
 })
